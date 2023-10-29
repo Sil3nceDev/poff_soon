@@ -23,6 +23,12 @@ body {
   overflow-x: hidden;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1197,7 +1203,7 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper h1 {
 
 @media (max-width: 767px) {
   main.main-14 .main-wrapper.demo-14 .content-wrapper h1 {
-    font-size: 50px;
+    font-size: 80px;
   }
 }
 
@@ -1248,7 +1254,7 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-con
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content::after {
   content: ':';
-  font-size: 50px;
+  font-size: 65px;
   color: #3E2945;
   position: absolute;
   top: -5px;
@@ -1257,7 +1263,7 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-con
 
 @media (max-width: 767px) {
   main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content::after {
-    font-size: 35px;
+    font-size: 65px;
     top: 0;
   }
 }
@@ -1269,7 +1275,7 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-con
 
 @media (max-width: 767px) {
   main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content .count {
-    font-size: 35px;
+    font-size: 65px;
   }
 }
 
