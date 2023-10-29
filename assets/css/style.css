@@ -17,7 +17,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
 body {
-  font-family: "Bebas Neue";
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -1092,8 +1092,8 @@ main.main-14 .main-wrapper.demo-14 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          font-family: 'Cotton Cloud';
-  color: #28541E;
+  font-family: "Roboto", sans-serif;
+  color: #13290F;
   position: relative;
 }
 
@@ -1142,7 +1142,7 @@ main.main-14 .main-wrapper.demo-14 .shape-1 {
 }
 
 main.main-14 .main-wrapper.demo-14 .shape-2 {
-  left: 380px;
+  right: 380px;
   top: 95px;
 }
 
@@ -1152,8 +1152,8 @@ main.main-14 .main-wrapper.demo-14 .shape-3 {
 }
 
 main.main-14 .main-wrapper.demo-14 .shape-4 {
-  right: 349px;
-  top: 607px;
+  right: 295px;
+  top: 550px;
 }
 
 main.main-14 .main-wrapper.demo-14 .shape-5 {
@@ -1180,7 +1180,7 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper {
 main.main-14 .main-wrapper.demo-14 .content-wrapper h1 {
   font-size: 100px;
   font-weight: 700;
-  margin-bottom: -20px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1203,17 +1203,16 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper h1 {
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper p {
   font-size: 16px;
-  font-family: 'Bebas Neue', sans-serif;
-  line-height: 6px;
+  line-height: 26px;
 }
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown {
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content {
-  padding: 0 36px;
+  padding: 0 22px;
   position: relative;
 }
 
