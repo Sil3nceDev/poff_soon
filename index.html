@@ -232,7 +232,12 @@
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/tiny-slider.js"></script>
 		<script src="js/custom.js"></script>
-		<script src="js/vercel.json"></script>
+		<script>
+			fetch('js/vercel.json')
+			  .then(response => response.json())
+			  .then(data => {
+			  })
+		</script>
 	</body>
 
 </html>
