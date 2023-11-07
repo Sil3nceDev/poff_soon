@@ -168,7 +168,7 @@ a {
       position: absolute;
       width: 300px;
       height: 217px;
-      background-image: url("../images/pogo.png");
+      /* background-image: url("../images/pogo.png"); */
       background-size: contain;
       background-repeat: no-repeat;
       right: -135px;
