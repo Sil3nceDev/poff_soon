@@ -248,10 +248,6 @@ a {
       font-family: Bebas Neue;
       color: #78cc4e;
       text-decoration: none; }
-      .product-section .product-item h5, .product-section .product-item strong {
-        font-family: Bebas Neue;
-        color: rgb(212, 51, 51);
-        text-decoration: none; }
     .product-section .product-item .icon-cross {
       position: absolute;
       width: 35px;
